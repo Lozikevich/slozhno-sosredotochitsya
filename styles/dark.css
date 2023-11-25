@@ -9,4 +9,58 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url("../images/cover-image-dark.png");
+  --color-header: #DB00FF;
+  --color-main-text: #F1B2CE;
+  --color-main-headers-lev-one: #FF0070;
+  --color-main-headers-lev-two: #000028;
+  --color-shadow: #FF0070;
+  --color-decor: #FF0070;
+
+  .header__rec::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    right: 29px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: var(--color-main-headers-lev-one);
+    box-shadow: 0px 0px 4px var(--color-main-headers-lev-one);
+  }
+  
+  .header__rec::before {
+    content: "rec";
+    position: absolute;
+    top: 20px;
+    right: 48px;
+    text-transform: uppercase;
+    color: var(--color-main-headers-lev-one);
+    text-align: center;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  @media (width <= 375px) {
+    .header__rec::after {
+      top: 18px;
+      right: 19px;
+    }
+    
+    .header__rec::before {
+      top: 10px;
+      right: 38px;
+    }
+  }
+   
+  .header__theme-menu-button_type_light {
+    outline: none;
+  }
+
+  .header__theme-menu-button_type_light:hover {
+    outline: 1px solid var(--color-main-headers-lev-one);
+  }
 }
