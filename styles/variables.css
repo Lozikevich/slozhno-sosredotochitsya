@@ -6,19 +6,19 @@
 :root {
   --bg-image: url("../images/cover-image-light.png");
   --color-header: #FFC2E6;
+  --color-shadow: #FF8DCB;
   --color-main-text: #353430;
   --color-main-headers-lev-one: #353430;
   --color-main-headers-lev-two: #353430;
-  --color-shadow: #FF0070;
   --color-decor: #ff8dcb;
   --font-size: 18px;
   --line-height: 23.4px;
   --main-font: "IBM Plex Mono", sans-serif;
 }
 
-@media (width <= 768px) {
+@media (width >= 1024px) {
   :root {
     --color-header: #FFC2E6;
-    --color-shadow: #ff8dcb;
+    --color-shadow: #FF0070;
   }
 }
