@@ -16,13 +16,14 @@
   --color-main-headers-lev-two: #000028;
   --color-shadow: #FF0070;
   --color-decor: #FF0070;
+  --color-outline: rgba(255, 0, 112, 0.40);
   }
 
   .page.theme_dark .header__rec::after {
     content: "";
     position: absolute;
-    top: 28px;
-    right: 29px;
+    top: 18px;
+    right: 19px;
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -33,8 +34,8 @@
   .page.theme_dark .header__rec::before {
     content: "rec";
     position: absolute;
-    top: 20px;
-    right: 48px;
+    top: 10px;
+    right: 38px;
     text-transform: uppercase;
     color: var(--color-main-headers-lev-one);
     text-align: center;
@@ -45,15 +46,15 @@
     line-height: 25px;
   }
 
-  @media (width <= 375px) {
+  @media (width >= 768px) {
     .page.theme_dark .header__rec::after {
-      top: 18px;
-      right: 19px;
+      top: 28px;
+      right: 29px;
     }
     
     .page.theme_dark .header__rec::before {
-      top: 10px;
-      right: 38px;
+      top: 20px;
+      right: 48px;
     }
   }
   
@@ -66,13 +67,14 @@
     --color-main-headers-lev-two: #000028;
     --color-shadow: #FF0070;
     --color-decor: #FF0070;
+    --color-outline: rgba(255, 0, 112, 0.40);
   }
 
   .page.theme_auto .header__rec::after {
     content: "";
     position: absolute;
-    top: 28px;
-    right: 29px;
+    top: 18px;
+    right: 19px;
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -83,8 +85,8 @@
   .page.theme_auto .header__rec::before {
     content: "rec";
     position: absolute;
-    top: 20px;
-    right: 48px;
+    top: 10px;
+    right: 38px;
     text-transform: uppercase;
     color: var(--color-main-headers-lev-one);
     text-align: center;
@@ -95,15 +97,15 @@
     line-height: 25px;
   }
 
-  @media (width <= 375px) {
+  @media (width >= 768px) {
     .page.theme_auto .header__rec::after {
-      top: 18px;
-      right: 19px;
+      top: 28px;
+      right: 29px;
     }
-
+    
     .page.theme_auto .header__rec::before {
-      top: 10px;
-      right: 38px;
+      top: 20px;
+      right: 48px;
     }
   }
 }

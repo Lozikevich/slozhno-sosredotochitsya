@@ -14,6 +14,8 @@
   --font-size: 18px;
   --line-height: 23.4px;
   --main-font: "IBM Plex Mono", sans-serif;
+  --font-size-header: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --color-outline: rgba(50, 49, 45, 0.40);
 }
 
 @media (width >= 1024px) {

@@ -22,7 +22,8 @@ p,
 div,
 ol,
 li,
-img {
+img,
+a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,7 +35,10 @@ ul {
   list-style: none;
 }
 
-
+a {
+  display: inline-block;
+  
+}
 
 li {
   font-size: 0;
