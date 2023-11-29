@@ -16,11 +16,11 @@
   --main-font: "IBM Plex Mono", sans-serif;
   --font-size-header: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --color-outline: rgba(50, 49, 45, 0.40);
+  --color-rec: rgba(53, 52, 48, 0.0);
 }
 
-@media (width >= 1024px) {
-  :root {
-    --color-header: #FFC2E6;
-    --color-shadow: #FF0070;
-  }
+@media (width >= 1024px) { 
+  :root { 
+    --color-shadow: #FF0070; 
+  } 
 }
