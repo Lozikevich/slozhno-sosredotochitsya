@@ -158,7 +158,7 @@
   background-color: var(--color-decor);
 }
 
-.page.theme_light .header__rec::after, 
+.page.theme_light .header__rec::after,
 .page.theme_light .header__rec::before {
   display: none;
 }
@@ -319,7 +319,7 @@
   }
 
   .cover__title {
-    --font-size-header: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    --font-size-header: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     display: inline-block;
     font-size: var(--font-size-header);
   } 

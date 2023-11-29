@@ -8,19 +8,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-      --bg-image: url("../images/cover-image-light.png");
-      --color-header: #FFC2E6;
-      --color-shadow: #FF8DCB;
-      --color-main-text: #353430;
-      --color-main-headers-lev-one: #353430;
-      --color-main-headers-lev-two: #353430;
-      --color-decor: #ff8dcb;
-      --color-outline: rgba(50, 49, 45, 0.40);
-      --color-rec: rgba(53, 52, 48, 0.0);
-    
-  }
-
-  
-
-
-
+  --bg-image: url("../images/cover-image-light.png");
+  --color-header: #FFC2E6;
+  --color-shadow: #FF8DCB;
+  --color-main-text: #353430;
+  --color-main-headers-lev-one: #353430;
+  --color-main-headers-lev-two: #353430;
+  --color-decor: #ff8dcb;
+  --color-outline: rgba(50, 49, 45, 0.40);
+  --color-rec: rgba(53, 52, 48, 0.0);
+}
