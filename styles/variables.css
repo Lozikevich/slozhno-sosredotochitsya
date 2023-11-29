@@ -19,8 +19,8 @@
   --color-rec: rgba(53, 52, 48, 0.0);
 }
 
-@media (width >= 1024px) { 
-  :root { 
-    --color-shadow: #FF0070; 
+@media (width >= 1024px) {
+  :root {
+    --color-shadow: #FF0070;
   } 
 }
